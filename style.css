@@ -1,0 +1,28 @@
+:root { --teal:#003D4C; --teal-2:#004D60; --green:#7CC142; --ink:#0F2A33; --mute:#4B6470; --bg:#F3F8F9; --line:#D9E8EB; }
+* { box-sizing:border-box; }
+html { -webkit-text-size-adjust:100%; }
+body { margin:0; font-family:"Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color:var(--ink); background:var(--bg); line-height:1.6; }
+a { color:#007A8C; }
+.wrap { max-width:860px; margin:0 auto; padding:0 16px; }
+.hero { background:linear-gradient(160deg,#003D4C 0%,#004D60 60%,#0E5A48 100%); color:#fff; padding:40px 0 48px; }
+.brand { display:flex; align-items:center; gap:14px; }
+.brand svg { width:56px; height:56px; flex:none; }
+.brand b { display:block; font-size:20px; }
+.brand span { color:var(--green); font-size:12px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; }
+.hero h1 { font-size:clamp(28px,6vw,44px); line-height:1.15; margin:32px 0 12px; }
+.lead { font-size:18px; color:rgba(255,255,255,.85); max-width:640px; margin:0; }
+.btn { display:inline-block; margin-top:26px; background:var(--green); color:#0B2A12; font-weight:800; text-decoration:none; padding:13px 24px; border-radius:30px; }
+main section { padding:28px 0 4px; }
+h2 { color:var(--teal); font-size:22px; margin:0 0 12px; }
+.grid { list-style:none; padding:0; margin:0; display:grid; grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr)); gap:12px; }
+.grid li { background:#fff; border:1px solid var(--line); border-radius:14px; padding:14px 16px; color:var(--mute); font-size:15px; }
+.grid li b { display:block; color:var(--teal); font-size:16px; }
+.bar { background:var(--teal); padding:14px 0; }
+.bar a { color:#fff; text-decoration:none; font-weight:600; }
+.doc { padding-top:28px; padding-bottom:12px; }
+.doc h1 { color:var(--teal); font-size:clamp(26px,5vw,36px); margin:0; }
+.doc h2 { margin-top:28px; font-size:20px; }
+.doc ul { padding-left:20px; }
+.doc li { margin-bottom:8px; }
+.meta { color:var(--mute); font-size:14px; margin-top:4px; }
+footer { padding:32px 16px 40px; color:var(--mute); font-size:14px; border-top:1px solid var(--line); margin-top:32px; }
